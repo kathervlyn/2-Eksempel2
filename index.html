@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 2</title>
+    <link rel="Stylesheet" href="Styles.css" />
+
+
+</head>
+
+<body>
+
+    <button onclick="noLayout()">Ingen Layout</button>
+    <button onclick="verticalLayout()">Vertikal Layout</button>
+    <button onclick="horizontalLayout()">Horisontal Layout</button>
+    <button onclick="gridLayout()">Grid Layout</button>
+
+    <h1> Eksempel 2 </h1>
+    <div id="Layouts">
+        <div class="Card">
+            <div class="Header Green" onclick="VerktøyButton()">Verktøy</div>
+            <div id="VerktøyTagg"></div>
+        </div>
+
+        <div class="Card">
+            <div class="Header Blue" onclick="HTMLButton()">HTML</div>
+            <div id="HTMLTagg"></div>
+        </div>
+
+        <div class="Card">
+            <div class="Header Red" onclick="CSSButton()">CSS</div>
+            <div id="CSSTagg"></div>
+        </div>
+
+        <div class="Card">
+            <div class="Header Yellow" onclick="JavaScriptButton()">Java Script</div>
+            <div id="JavaScriptTagg"></div>
+        </div>
+
+        <div class="Card">
+            <div class="Header Dark" onclick="HodeKroppBenButton()">Hode, Kropp og Ben</div>
+            <div id="HodeKroppOgBenTagg"></div>
+        </div>
+
+    </div>
+
+    <div id="VerktøyTagg"></div>
+    <div id="HTMLTagg"></div>
+    <div id="CSSTagg"></div>
+    <div id="JavaScriptTagg"></div>
+    <div id="HodeKroppOgBenTagg"></div>
+    <div id="CloseTagg"></div>
+
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

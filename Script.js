@@ -156,14 +156,14 @@ function HodeKroppBenButton() {
 function selectHead1() {
     document.getElementById('head').innerHTML = /*HTML*/`
 <button onclick="selectHead4()">◀</button>
-<img src="img/head1.png" />
+<img src="Img/head1.png" />
 <button onclick="selectHead2()">▶</button> `;
 }
 
 function selectHead2() {
     document.getElementById('head').innerHTML = /*HTML*/`
 <button onclick="selectHead1()">◀</button>
-<img src="img/head2.png" />
+<img src="Img/head2.png" />
 <button onclick="selectHead3()">▶</button>
 `;
 }
@@ -171,7 +171,7 @@ function selectHead2() {
 function selectHead3() {
     document.getElementById('head').innerHTML = /*HTML*/`
 <button onclick="selectHead2()">◀</button>
-<img src="img/head3.png" />
+<img src="Img/head3.png" />
 <button onclick="selectHead4()">▶</button>
 `;
 }
@@ -179,7 +179,7 @@ function selectHead3() {
 function selectHead4() {
     document.getElementById('head').innerHTML = /*HTML*/`
 <button onclick="selectHead3()">◀</button>
-<img src="img/head4.png" />
+<img src="Img/head4.png" />
 <button onclick="selectHead1()">▶</button>
 `;
 }
@@ -187,7 +187,7 @@ function selectHead4() {
 function selectBody1() {
     document.getElementById('body').innerHTML = /*HTML*/`
 <button onclick="selectBody4()">◀</button>
-<img src="img/body1.png" />
+<img src="Img/body1.png" />
 <button onclick="selectBody2()">▶</button>
 `;
 }
@@ -195,7 +195,7 @@ function selectBody1() {
 function selectBody2() {
     document.getElementById('body').innerHTML = /*HTML*/`
 <button onclick="selectBody1()">◀</button>
-<img src="img/body2.png" />
+<img src="Img/body2.png" />
 <button onclick="selectBody3()">▶</button>
 `;
 }
@@ -203,7 +203,7 @@ function selectBody2() {
 function selectBody3() {
     document.getElementById('body').innerHTML = /*HTML*/`
 <button onclick="selectBody2()">◀</button>
-<img src="img/body3.png" />
+<img src="Img/body3.png" />
 <button onclick="selectBody4()">▶</button>
 `;
 }
@@ -211,7 +211,7 @@ function selectBody3() {
 function selectBody4() {
     document.getElementById('body').innerHTML = /*HTML*/`
 <button onclick="selectBody3()">◀</button>
-<img src="img/body4.png" />
+<img src="Img/body4.png" />
 <button onclick="selectBody1()">▶</button>
 `;
 }
@@ -219,7 +219,7 @@ function selectBody4() {
 function selectLegs1() {
     document.getElementById('legs').innerHTML = /*HTML*/`
 <button onclick="selectLegs4()">◀</button>
-<img src="img/legs1.png" />
+<img src="Img/legs1.png" />
 <button onclick="selectLegs2()">▶</button>
 `;
 }
@@ -227,7 +227,7 @@ function selectLegs1() {
 function selectLegs2() {
     document.getElementById('legs').innerHTML = /*HTML*/`
 <button onclick="selectLegs1()">◀</button>
-<img src="img/legs2.png" />
+<img src="Img/legs2.png" />
 <button onclick="selectLegs3()">▶</button>
 `;
 }
@@ -235,7 +235,7 @@ function selectLegs2() {
 function selectLegs3() {
     document.getElementById('legs').innerHTML = /*HTML*/`
 <button onclick="selectLegs2()">◀</button>
-<img src="img/legs3.png" />
+<img src="Img/legs3.png" />
 <button onclick="selectLegs4()">▶</button>
 `;
 }
@@ -243,7 +243,7 @@ function selectLegs3() {
 function selectLegs4() {
     document.getElementById('legs').innerHTML = /*HTML*/`
 <button onclick="selectLegs3()">◀</button>
-<img src="img/legs4.png" />
+<img src="Img/legs4.png" />
 <button onclick="selectLegs1()">▶</button>
 `;
 }

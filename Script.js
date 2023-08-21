@@ -219,7 +219,7 @@ function selectBody4() {
 function selectLegs1() {
     document.getElementById('legs').innerHTML = /*HTML*/`
 <button onclick="selectLegs4()">◀</button>
-<img src="./Img/legs1.png" />
+<img src="Img/legs1.png" />
 <button onclick="selectLegs2()">▶</button>
 `;
 }
